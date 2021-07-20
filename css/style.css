@@ -58,3 +58,13 @@ header h2{
     min-height: 200px;
     border: 1px solid red;
 }
+
+.about{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.mine-box-small{
+    width: 70%;
+    margin: auto;
+}
