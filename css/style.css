@@ -25,7 +25,36 @@ header ul li a{
     color: white;
 }
 /* TYPO */
-h1{
+header h2{
     color: white;
     font-size: 1em;
+}
+
+
+/* MAIN */
+.hero{
+    background-color: #1abc9c;
+    padding-top: 90px;
+    color: white;
+}
+
+.fakeimg{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.star{
+    width: 2em;
+    margin: 15px 0px;
+}
+
+
+.hero ul li{
+    display: inline-block;
+}
+
+.mine-box{
+    min-height: 200px;
+    border: 1px solid red;
 }
