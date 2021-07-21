@@ -1,6 +1,7 @@
 /* DEBUG */
 .debug .container,
-.debug [class*="col"]
+.debug [class*="col"],
+footer ul
 {
     border: 1px solid red;   
 }
@@ -90,14 +91,15 @@ header ul li a{
 /* --------------/MAIN-------------- */
 
 /* FOOTER */
-.bi{
-    font-size: 1.5em;
-    padding: 0px 10px;
-}
 .footer_top a{
     color: green;
     text-decoration: none;
 }
-.footer_bottom{
-    background-color: #2c3e50;
+.icon_circle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
+
+
