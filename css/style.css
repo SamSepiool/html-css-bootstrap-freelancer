@@ -7,6 +7,7 @@
 /* COMMON */
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 .bg_primary{
     background-color: #2c3e50;
@@ -22,6 +23,16 @@ ul li{
     list-style: none;
 }
 
+.divider{                      
+    width: 230px;
+    margin: 25px auto;  
+}
+#line{
+    height: 5px;
+    border-radius: 5px;
+    opacity: inherit
+}
+
 section{
     padding: 50px 0px;
 }
@@ -31,10 +42,10 @@ header h2{
 }
 /* HEADER */
 header{
-    height: 90px;
-    /* line-height: 90px; */
-    width: 100%;
     position: fixed;
+    height: 90px;
+    width: 100%;
+    
 }
 
 header ul li{
@@ -47,38 +58,36 @@ header ul li a{
     text-decoration: none;
 }
 
-/* MAIN */
+/* --------------MAIN-------------- */
+
+/* HERO */
 #hero{
     padding-top: 90px;
 }
 
 #hero .container img{
     width: 230px;
+    margin: 40px 0px 25px 0px;
 }
 
-.divider{
-    width: 230px;
-    margin: auto;
-}
-
-#line{
-    height: 5px;
-    border-radius: 5px;
-    opacity: inherit
-}
-
+/* PORTFOLIO */
 .mine_box{
-    min-height: 200px;
-    border-radius: 5px;
-    background-color: lawngreen;
+    width: 33,33%;
+    border-radius: 10px;
     margin: 10px;
+    overflow: hidden;
+}
+.mine_box img{
+    width: 100%;
 }
 
-.mine_box_small{
+/* ABOUT */
+.diy_box{
     max-width: 1000px;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
+/* --------------/MAIN-------------- */
 
 /* FOOTER */
 .bi{
@@ -92,4 +101,3 @@ header ul li a{
 .footer_bottom{
     background-color: #2c3e50;
 }
-
